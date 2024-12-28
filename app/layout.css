@@ -1,0 +1,21 @@
+html {
+  /* min-height on body doesn't work unless it's parent (html) has an explicit height */
+  height: 100%;
+}
+
+.App {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  background-color: GRAY;
+}
+
+.page {
+  background-color: #f1f1f1;
+}
+
+.footer {
+  background-color: GRAY;
+}
